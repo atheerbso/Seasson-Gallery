@@ -1,0 +1,233 @@
+
+*{
+
+margin:0;
+padding:0;
+outline: none;
+border:none ;
+box-sizing: border-box;
+font-family: 'Dosis', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Sacramento', cursive;
+}
+
+body{
+
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    position: relative;
+   
+}
+
+.img-one
+{ 
+    background-image: url(../seasons_gallery/images/summer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 620px;
+    height: 400px;
+    margin-top: 200px;
+    position: absolute;
+    transform: translateX(30%);
+    border-radius: 25px;
+     
+}
+ .icon1 {
+
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    margin: 10px;
+    padding: 10px;
+} 
+
+.img-one  h5{
+
+    color:#fff;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    margin:20px  20px 0 20px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
+/*---two----*/
+
+.img-two
+{ 
+    background-image: url(../seasons_gallery/images/winter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 400px;
+    margin-top: 200px;
+    position: absolute;
+    transform: translateX(1020%);
+    border-radius: 25%;
+    transition:   0.9s;
+     
+}
+.img-two:active {
+
+    width: 620px;
+    height: 400px;
+    margin-top: 200px;
+    position: absolute;
+    transform: translateX(30%);
+    border-radius: 25px;
+     
+}
+ .icon2 {
+
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    margin: 10px;
+    padding: 10px;
+} 
+
+.img-two  h5{
+
+    color:transparent;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    margin:20px  20px 0 20px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.img-two h5:active{
+    color:#fff;
+}
+
+/*----three----*/
+
+
+.img-three
+{ 
+    background-image: url(../seasons_gallery/images/spring.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 400px;
+    margin-top: 200px;
+    position: absolute;
+    transform: translateX(1130%);
+    border-radius: 25%;
+    transition:   0.9s;
+     
+}
+.img-three:active {
+
+    width: 620px;
+    height: 400px;
+    margin-top: 200px;
+    position: absolute;
+    transform: translateX(30%);
+    border-radius: 25px;
+     
+}
+ .icon3 {
+
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    margin: 10px;
+    padding: 10px;
+} 
+
+.img-three  h5{
+
+    color:transparent;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    margin:20px  20px 0 20px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.img-three  h5:active{
+    color:#fff;
+}
+/*---four---*/
+
+
+.img-four
+{ 
+    background-image: url(../seasons_gallery/images/autumn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 400px;
+    margin-top: 200px;
+    position: absolute;
+    transform: translateX(1240%);
+    border-radius: 25%;
+    transition:   0.9s;
+     
+}
+.img-four:active {
+
+    width: 620px;
+    height: 400px;
+    margin-top: 200px;
+    position: absolute;
+    transform: translateX(30%);
+    border-radius: 25px;
+     
+}
+ .icon4{
+
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    margin: 10px;
+    padding: 10px;
+} 
+
+.img-four  h5{
+
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    margin:20px  20px 0 20px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    color:transparent
+    
+    }
+    .img-four  h5:active{
+
+        color:#fff;
+    }
